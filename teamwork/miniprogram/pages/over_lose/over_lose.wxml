@@ -1,0 +1,12 @@
+<!--pages/over_lose/over_lose.wxml-->
+<page>
+    <image class="background" src="https://www.yozrun.com/UploadFiles/img_1_2588814438_603107681_26.jpg" ></image>
+    <view class="container">
+        <view class="container_inner">
+            <text class="des">
+                {{des}}
+            </text>
+        </view>
+    </view>
+</page>
+

@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/zc/zc",
+    "pages/select/select",
+    "pages/over_win/over_win",
+    "pages/over_lose/over_lose",
+    "pages/role/role",
+    "pages/zh/zh",
+    "pages/gameing/gameing"
+  ],
+  "window": {
+    "backgroundColor": "#ecc000",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true,  
+    "navigationBarBackgroundColor": "#5488e9",
+    "navigationBarTitleText": "猪尾巴纸牌游戏",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

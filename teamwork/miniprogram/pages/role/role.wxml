@@ -1,0 +1,11 @@
+<!--pages/role/role.wxml-->
+<page>
+    <image class="background" src="https://www.yozrun.com/UploadFiles/img_1_2588814438_603107681_26.jpg" ></image>
+        <view>{{pa1}}</view>
+        <view>{{pa2}}</view>
+        <view>{{pa3}}</view>
+        <view>{{pa4}}</view>
+        <view>{{pa5}}</view>
+        <view>{{pa6}}</view>
+
+</page>

@@ -1,0 +1,13 @@
+<page>
+    <image class="background" src="https://www.yozrun.com/UploadFiles/img_1_2588814438_603107681_26.jpg" ></image>
+    <view class="box">
+        <view class="des">{{des}}
+        </view>
+        <input placeholder="Set new password" placeholder-class="input"></input>
+        <view class="box_qd">
+            <view class="qd" bindtap="jump_to_welcome">
+                <text>{{qd}}</text>
+            </view>
+        </view>
+    </view>
+</page>

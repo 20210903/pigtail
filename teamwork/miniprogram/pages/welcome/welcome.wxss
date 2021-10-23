@@ -1,0 +1,104 @@
+/* 背景图 */
+.background{
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-size: 100% 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.description{
+    padding-top: 100rpx;
+    font-family: unset;
+    font-size: 60rpx;
+    font-weight: bolder;
+    color:cornflowerblue;
+    width: 100%;
+    text-align: center;
+}
+.sign_in_container{
+    width: 100%;
+    height: 800rpx;
+    display: flex;
+    flex-direction: column;
+}
+.id_box{
+    width: 100%;
+    height: 100rpx;
+    margin-top: 100rpx;
+    margin-left: 50rpx;
+}
+.id{
+    background-color: cyan;
+    width: 550rpx;
+    height: 75rpx;
+}
+.password_box{
+    width: 100%;
+    height: 100rpx;
+    margin-top: 100rpx;
+    margin-left: 50rpx;
+}
+.password{
+    background-color: cyan;
+    width: 550rpx;
+    height: 75rpx;
+}
+.sign_in{
+    height: 150rpx;
+    width: 300rpx;
+    background-color: cornflowerblue;
+    margin-top: 50rpx;
+    margin-left:150rpx;
+    border-radius: 30rpx;
+    text-align: center;
+}
+.in{
+    font-size: 50rpx;
+    font-weight: bolder;
+    color: cyan;
+}
+.zc_zh{
+    width: 70%;
+    height: 50rpx;
+    display: flex;
+    flex-direction: row;
+}
+.zc{
+    border-radius: 20rpx;
+    text-align: center;
+}
+.zc_text{
+    font-size:40rpx ;
+    font-weight: bolder;
+}
+.zh{
+    border-radius: 20rpx;
+    text-align: center;
+}
+.zh_text{
+    font-size: 40rpx;
+    font-weight: bolder;
+}
+.role_box{
+    margin-top: 50rpx;
+    width: 100%;
+}
+.role{
+    background-color: cyan;
+    width: 35%;
+    height: 50rpx;
+    margin-left: 250rpx;
+    text-align: center;
+    border-radius: 20rpx;
+}
+.role_text{
+    font-size: 40rpx;
+    font-weight: bolder;
+}

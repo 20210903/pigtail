@@ -1,0 +1,114 @@
+{
+    "setting": {},
+    "condition": {
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "id": -1,
+                    "name": "db guide",
+                    "pathName": "pages/databaseGuide/databaseGuide",
+                    "query": ""
+                },
+                {
+                    "name": "pages/getOpenId/index",
+                    "pathName": "pages/getOpenId/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/deployService/index",
+                    "pathName": "pages/deployService/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/selectRecord/index",
+                    "pathName": "pages/selectRecord/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/sumRecordResult/index",
+                    "pathName": "pages/sumRecordResult/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/updateRecord/index",
+                    "pathName": "pages/updateRecord/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/updateRecordResult/index",
+                    "pathName": "pages/updateRecordResult/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/updateRecordSuccess/index",
+                    "pathName": "pages/updateRecordSuccess/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/welcome/welcome",
+                    "pathName": "pages/welcome/welcome",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/gameing/gameing",
+                    "pathName": "pages/gameing/gameing",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/welcome/welcome",
+                    "pathName": "pages/welcome/welcome",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/over/over",
+                    "pathName": "pages/over/over",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/over_win/over_win",
+                    "pathName": "pages/over_win/over_win",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/over_lose/over_lose",
+                    "pathName": "pages/over_lose/over_lose",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/zc/zc",
+                    "pathName": "pages/zc/zc",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/zh/zh",
+                    "pathName": "pages/zh/zh",
+                    "query": "",
+                    "scene": null
+                }
+            ]
+        }
+    }
+}

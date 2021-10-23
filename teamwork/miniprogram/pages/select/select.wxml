@@ -1,0 +1,15 @@
+<!--pages/select/select.wxml-->
+<page>
+    <image class="background" src="https://www.yozrun.com/UploadFiles/img_1_2588814438_603107681_26.jpg" ></image>
+    <view class="container">
+        <view class="item1" bindtap="game1" style="flex:1;width:400rpx;background-color:cornflowerblue">
+            <text class="word1">{{item1}}</text> 
+        </view> 
+        <view class="item2" bindtap="game2" style="flex:1;width:400rpx;background-color:green">
+            <text class="word2">{{item2}}</text>
+        </view> 
+        <view class="item3" bindtap="game3" style="flex:1;width:400rpx;background-color: yellow">
+            <text class="word3">{{item3}}</text>
+        </view> 
+    </view>
+</page>

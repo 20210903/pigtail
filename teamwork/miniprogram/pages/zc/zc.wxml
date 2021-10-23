@@ -1,0 +1,26 @@
+<page>
+    <image class="background" src="https://www.yozrun.com/UploadFiles/img_1_2588814438_603107681_26.jpg" ></image>
+    <view class="box">
+        <view class="id">
+            <text>{{id}}</text>
+            <input class="id_i" placeholder="pls set your id!" placeholder-class="input"></input>
+        </view>
+        <view class="password">
+            <text>{{password}}</text>
+            <input placeholder="pls set passwrod!" placeholder-class="input"></input>
+        </view>
+        <view class="name">
+            <text>{{name}}</text>
+            <input placeholder="pls input name!" placeholder-class="input"></input>
+        </view>
+        <view class="sno">
+            <text>{{sno}}</text>
+            <input placeholder="pls input sno!" placeholder-class="input"></input>
+        </view>
+        <view class="box_in">
+            <view class="in" bindtap="jump_to_select">
+                <text class="in_text">{{in}}</text>
+            </view>
+        </view>
+    </view>
+</page>

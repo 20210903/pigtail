@@ -1,0 +1,61 @@
+<!--pages/gameing/gameing.wxml-->
+<page>      
+    <view class="container">
+    <!-- 背景图 -->
+        <image class="background" src="https://www.yozrun.com/UploadFiles/img_1_2588814438_603107681_26.jpg" ></image>
+        <!-- 玩家一区域 -->
+        <view class="player1">
+            <view class="p1_heart" style="flex:1;height:200rpx;background-color:rgba(180, 62, 15, 0.945)">
+                {{heart}}{{p1_heart}}
+                <image class="picture" animation="{{animation1}}" bindtap="p1_h_animation" src="{{p1_now_heart}}"></image>
+            </view>
+            <view class="p1_diamond" style="flex:1;height:200rpx;background-color:rgba(180, 62, 15, 0.945)">
+                {{diamond}}{{p1_diamond}}
+                <image class="picture" animation="{{animation2}}" bindtap="p1_d_animation" src="{{p1_now_diamond}}"></image>
+            </view>
+            <view class="p1_club" style="flex:1;height:200rpx;background-color:rgb(100, 99, 109)">
+                {{club}}{{p1_club}}
+                <image class="picture" animation="{{animation3}}" bindtap="p1_c_animation" src="{{p1_now_club}}"></image>
+            </view>
+            <view class="p1_spade" style="flex:1;height:200rpx;background-color:rgb(100, 99, 109)">
+                {{spade}}{{p1_spade}}
+                <image class="picture" animation="{{animation4}}" bindtap="p1_s_animation" src="{{p1_now_spade}}"></image>
+            </view>
+        </view>
+        <!-- 公共区域 -->
+        <view class="innercontainer">
+            <view class=" takearea">
+                {{takearea }}
+                <image class="pork_untake" bindtap="take_pork" src="{{cover}}"></image>
+            </view>
+            <view class="tj1">
+                <view class="number_h" style="flex: 1;width: 100rpx;background-color: cornflowerblue;">{{heart_in_take}}{{number_h}}</view>
+                <view class="number_d" style="flex: 1;width: 100rpx;background-color: cornflowerblue;">{{diamond_in_take}}{{number_d}}</view>
+                <view class="number_c" style="flex: 1;width: 100rpx;background-color: cornflowerblue;">{{club_in_take}}{{number_c}}</view>
+                <view class="number_s" style="flex: 1;width: 100rpx;background-color: cornflowerblue;">{{spade_in_take}}{{number_s}}</view>
+            </view>
+            <view class="quitarea">{{quitarea}}</view>   
+        </view>
+        <!-- 玩家二区域 -->
+        <view class="innercontainer2">
+        <view class="player2">
+            <view class="p2_heart" style="flex:1;height:200rpx;background-color:rgba(180, 62, 15, 0.945)">
+                {{heart}}{{p2_heart}}
+                <image class="picture" animation="{{animation5}}" bindtap="p2_h_animation" src="{{p2_now_heart}}"></image>
+            </view>
+            <view class="p2_diamond" style="flex:1;height:200rpx;background-color:rgba(180, 62, 15, 0.945)">
+                {{diamond}}{{p2_diamond}}
+                <image class="picture" animation="{{animation6}}" bindtap="p2_d_animation" src="{{p2_now_diamond}}"></image>
+            </view>
+            <view class="p2_club" style="flex:1;height:200rpx;background-color:rgb(100, 99, 109)">
+                {{club}}{{p2_club}}
+                <image class="picture" animation="{{animation7}}" bindtap="p2_c_animation" src="{{p2_now_club}}"></image>
+            </view>
+            <view class="p2_spade" style="flex:1;height:200rpx;background-color:rgb(100, 99, 109)">
+                {{spade}}{{p2_spade}}
+                <image class="picture" animation="{{animation8}}" bindtap="p2_s_animation" src="{{p2_now_spade}}"></image>
+            </view>
+        </view>
+        </view>
+    </view>     
+</page>

@@ -1,0 +1,8 @@
+<!--pages/over_win/over_win.wxml-->
+<page>
+    <image class="background" src="https://www.yozrun.com/UploadFiles/img_1_2588814438_603107681_26.jpg" ></image>
+    <view class="container">
+        <text class="lose" animation="{{ani_lose}}">{{lose}}</text>
+        <text class="win" animation="{{ani_win}}">{{win}}</text>  
+    </view>
+</page>
